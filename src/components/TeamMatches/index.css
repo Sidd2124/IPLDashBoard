@@ -1,1 +1,43 @@
-/* Write your CSS here */
+.banner {
+  height: 150px;
+  margin: 10px;
+  border-width: 5px;
+}
+.heading {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  padding: 9px;
+  margin: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.match {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  font-size: x-small;
+}
+.teamlogo {
+  height: 118px;
+  margin-top: 15px;
+}
+.Finel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.box1 {
+  background-color: gray;
+  color: white;
+  border-radius: 4px;
+  padding: 9px;
+  margin: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-style: solid;
+  border-color: white;
+  border-width: thin;
+}

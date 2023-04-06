@@ -1,9 +1,11 @@
 import {Component} from 'react'
 
+import Loader from 'react-loader-spinner'
+
 import TeamCard from '../TeamCard/index'
 
 class MatchCard extends Component {
-  state = {data: []}
+  state = {data: [], isLoading: true}
 
   componentDidMount() {
     this.teamdata()
@@ -17,16 +19,18 @@ class MatchCard extends Component {
       name: each.name,
       imageUrl: each.team_image_url,
     }))
-    this.setState({data: newteam})
+    this.setState({data: newteam, isLoading: false})
   }
 
   render() {
-    const {data} = this.state
+    const {data, isLoading} = this.state
     return (
       <div>
-        {data.map(each => (
-          <TeamCard teams={each} />
-        ))}
+        {isLoading ? (
+          <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
+        ) : (
+          data.map(each => <TeamCard teams={each} />)
+        )}
       </div>
     )
   }

@@ -1,1 +1,18 @@
-/* Write your CSS here */
+.latest {
+  padding: 10px;
+  font-size: xx-small;
+  background-color: black;
+  color: white;
+  margin: 6px;
+  border-radius: 6px;
+  width: 165px;
+}
+.letestlogo {
+  height: 40px;
+}
+.Green {
+  color: green;
+}
+.Red {
+  color: red;
+}
