@@ -1,0 +1,18 @@
+.main {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+}
+.layer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+  margin-top: 20px;
+  margin-right: 8px;
+}
+.head {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

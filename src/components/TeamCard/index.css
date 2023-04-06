@@ -1,0 +1,13 @@
+.team {
+  border-style: solid;
+  border-width: thin;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-size: 10px;
+  height: 90px;
+  margin: 15px;
+  border-radius: 6px;
+  padding: 7px;
+}
